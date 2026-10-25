@@ -1,0 +1,15 @@
+{
+  "textures": {
+    "tape": "backrooms_tape:block/directional_caution_tape_arrow",
+    "particle": "backrooms_tape:block/directional_caution_tape"
+  },
+  "elements": [
+    {
+      "from": [5, 0.27, 5],
+      "to": [11, 0.27, 11],
+      "faces": {
+        "up": { "uv": [0, 0, 16, 16], "texture": "#tape", "tintindex": 0 }
+      }
+    }
+  ]
+}

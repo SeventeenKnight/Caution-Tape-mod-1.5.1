@@ -1,0 +1,12 @@
+{
+  "multipart": [
+    { "when": { "facing": "north" }, "apply": { "model": "backrooms_tape:block/directional_caution_tape_arrow_dot", "y": 0 } },
+    { "when": { "facing": "east" }, "apply": { "model": "backrooms_tape:block/directional_caution_tape_arrow_dot", "y": 90 } },
+    { "when": { "facing": "south" }, "apply": { "model": "backrooms_tape:block/directional_caution_tape_arrow_dot", "y": 180 } },
+    { "when": { "facing": "west" }, "apply": { "model": "backrooms_tape:block/directional_caution_tape_arrow_dot", "y": 270 } },
+    { "when": { "north": "true" }, "apply": { "model": "backrooms_tape:block/directional_caution_tape_n" } },
+    { "when": { "east": "true" }, "apply": { "model": "backrooms_tape:block/directional_caution_tape_e" } },
+    { "when": { "south": "true" }, "apply": { "model": "backrooms_tape:block/directional_caution_tape_s" } },
+    { "when": { "west": "true" }, "apply": { "model": "backrooms_tape:block/directional_caution_tape_w" } }
+  ]
+}
